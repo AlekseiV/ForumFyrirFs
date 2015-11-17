@@ -10,6 +10,18 @@ app.config(['$routeProvider', function($routeProvider) {
    controller: 'PostController',
    templateUrl: 'views/post.html'
  })
+ .when('/Login', {
+  controller: 'LoginController',
+  templateUrl: 'views/Login.html'
+})
+.when('/register', {
+  controller: 'EmailController',
+  templateUrl: 'views/register.html'
+})
+.when('/resetpassword', {
+  controller: 'EmailController',
+  templateUrl: 'views/resetpassword.html'
+})
  .otherwise({
    redirectTo: '/Home'
  });
