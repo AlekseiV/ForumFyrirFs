@@ -11,4 +11,6 @@ urlpatterns = [
     url(r'^(?P<post_id>[0-9]+)/results/$', views.results, name='results'),
     # ex: /frm/5/vote/
     url(r'^(?P<post_id>[0-9]+)/vote/$', views.vote, name='vote'),
+
+    url(r'^register$', views.register, name='index'),
 ]

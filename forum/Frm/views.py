@@ -19,3 +19,7 @@ def results(request, post_id):
 
 def vote(request, post_id):
     return HttpResponse("You're voting on post %s." % post_id)
+
+def register(request):
+
+    #return HttpResponse("{ 'postText' : " + Post.postText)
