@@ -54,7 +54,9 @@ a.back {
     display: block;
     font-weight: bold;
     margin: 0 0 20px;
-    padding: 14px 0;
+    padding: 12px 0;
+    margin-top: 20px;
+    margin-left: 200px;
     text-align: center;
     width: 200px;
 }
@@ -204,6 +206,11 @@ body {
 }
 .Login-form {
 	margin-top: 60px;
+}
+.Post-form {
+	margin-top: 40px;
+  margin-left:-200px;
+  width: 800px;
 }
 .registeresetpassw{
   text-align: center;

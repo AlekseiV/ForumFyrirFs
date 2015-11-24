@@ -22,6 +22,10 @@ app.config(['$routeProvider', function($routeProvider) {
   controller: 'EmailController',
   templateUrl: 'views/resetpassword.html'
 })
+.when('/ucp', {
+  controller: 'EmailController',
+  templateUrl: 'views/ucp.html'
+})
  .otherwise({
    redirectTo: '/Home'
  });
