@@ -76,7 +76,7 @@ body{
 	background: -o-linear-gradient(top,  #666666 0%,#666666 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #666666 0%,#666666 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #666666 0%,#666666 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#666666',GradientType=0 ); /* IE6-9 */	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#666666',GradientType=0 ); /* IE6-9 */
 	padding: 10px 10px 18px 10px;
 }
 .logo h1 a{
@@ -117,7 +117,7 @@ body{
 	}
 	.copy-right p{
 		font-size:0.9em;
-		
+
 	}
 }
 @media screen and (max-width:640px)	{
